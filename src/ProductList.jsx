@@ -301,11 +301,7 @@ function ProductList() {
             [ product.name ]: true, // Set the product name as key and value as true to indicate it's added to cart
         }));
     };
-
-    useEffect(() => {
-        cart.filter((item) => { });
-    }, [ cart ]);
-
+    
     return (
         <div>
             <div
